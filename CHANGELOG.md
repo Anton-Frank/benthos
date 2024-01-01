@@ -14,6 +14,8 @@ All notable changes to this project will be documented in this file.
 - New `processors` processor.
 - Field `read_header` added to the `amqp_1` input.
 - A debug endpoint `/debug/pprof/allocs` has been added for profiling allocations.
+- New `azure_cosmosdb` input, processor and output.
+- All `sql_*` components now support the `gocosmos` driver.
 
 ### Fixed
 
